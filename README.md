@@ -9,38 +9,38 @@ making it easy to extract, process, and serve data via conversational interfaces
 ## Content Archtecture
 monagent/
 │
-├── backend/                          # 🧠 後端邏輯與 API 層
-│   ├── api/                          # Flask / FastAPI RESTful API
-│   │   └── app.py                    # 主伺服器入口
-│   ├── bot/                          # 聊天邏輯 (AI/Rules)
-│   ├── scraper/                      # 爬蟲模組
-│   ├── processor/                    # 清理、格式化
-│   ├── storage/                      # 資料儲存層 (CSV, DB)
-│   ├── automation/                   # 排程、自動化
-│   ├── config/                       # 設定檔 (YAML, JSON)
-│   ├── data/                         # 抓取結果輸出
+├── backend/  # 🧠 後端邏輯與 API 層
+│   ├── api/  # Flask / FastAPI RESTful API
+│   │   └── app.py  # 主伺服器入口
+│   ├── bot/  # 聊天邏輯 (AI/Rules)
+│   ├── scraper/  # 爬蟲模組
+│   ├── processor/   # 清理、格式化
+│   ├── storage/   # 資料儲存層 (CSV, DB)
+│   ├── automation/  # 排程、自動化
+│   ├── config/  # 設定檔 (YAML, JSON)
+│   ├── data/  # 抓取結果輸出
 │   │   ├── raw/
 │   │   └── processed/
 │   └── __init__.py
 │
-├── frontend/                         # 🎨 前端介面層（可同時支援多平台）
-│   ├── web/                          # Web 介面 (HTML / React / Vue)
+├── frontend/  # 🎨 前端介面層（可同時支援多平台）
+│   ├── web/  # Web 介面 (HTML / React / Vue)
 │   │   ├── templates/
 │   │   │   └── chat.html
 │   │   ├── static/
 │   │   │   ├── style.css
 │   │   │   └── script.js
-│   │   └── app.py                    # （若是 Flask 靜態頁）
+│   │   └── app.py  # （若是 Flask 靜態頁）
 │   │
-│   └── mobile/                       # App 版本 (React Native / Flutter)
+│   └── mobile/  # App 版本 (React Native / Flutter)
 │       └── README.md
 │
-├── tests/                            # 🧪 單元測試
+├── tests/  # 🧪 單元測試
 │   ├── test_scraper.py
 │   ├── test_bot.py
 │   └── test_api.py
 │
-├── docs/                             # 📘 文件與筆記
+├── docs/  # 📘 文件與筆記
 │   ├── architecture.md
 │   └── usage_guide.md
 │
