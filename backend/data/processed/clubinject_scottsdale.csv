@@ -1,5 +1,5 @@
-﻿location,units,price,member_fee_month,phone,email,address,source_url
-Scottsdale,20,150.8,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,https://www.clubinject.com/scottsdale
-Scottsdale,30,226.2,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,https://www.clubinject.com/scottsdale
-Scottsdale,40,301.6,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,https://www.clubinject.com/scottsdale
-Scottsdale,50,377.0,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,https://www.clubinject.com/scottsdale
+﻿location,service,description,units,price,member_fee_month,phone,email,address,hours,source_url
+Scottsdale,Botox® / Dysport®,It's all we do.,20,150.8,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,,https://www.clubinject.com/scottsdale
+Scottsdale,Botox® / Dysport®,It's all we do.,30,226.2,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,,https://www.clubinject.com/scottsdale
+Scottsdale,Botox® / Dysport®,It's all we do.,40,301.6,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,,https://www.clubinject.com/scottsdale
+Scottsdale,Botox® / Dysport®,It's all we do.,50,377.0,9.72,(480) 576-2246,members@clubinject.com,Botox® / Dysport® Scottsdale Arizona — ClubInject®,,https://www.clubinject.com/scottsdale
