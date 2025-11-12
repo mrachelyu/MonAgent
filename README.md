@@ -43,21 +43,14 @@ source venv/bin/activate
 ## Install Dependencies
 pip install -r requirements.txt
 
-
-## Setting up Git version control and initial commit
-git init
-git add .
-git commit -m "Initialize MonAgent project structure"
-
-
 ```
----
+
 ## 🗓️ Development progress
-- [x] Week 1: 專案初始化
-- [ ] Week 2: 通用爬蟲基礎模組
-- [ ] Week 3: 動態網站支援
-- [ ] Week 4: 資料清理與儲存
-- [ ] Week 5: Bot 整合
-- [ ] Week 6: 自動化
-- [ ] Week 7: 部署
-- [ ] Week 8: 文件與發佈
+- [x] Week 1: Project initialization
+- [x] Week 2: General scraper base module
+- [x] Week 3: Dynamic website support
+- [ ] Week 4: Data cleaning and storage
+- [ ] Week 5: Bot integration
+- [ ] Week 6: Automation
+- [ ] Week 7: Deployment
+- [ ] Week 8: Documentation and release

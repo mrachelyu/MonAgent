@@ -1,8 +1,0 @@
-site_name: "BeautyPlus Medical Spa"
-target_url: "https://books.toscrape.com/"   # 測試網站（可公開使用）
-selectors:
-  title: "h3 a"
-  price: ".price_color"
-storage:
-  type: "csv"
-  path: "backend/data/processed/medical_spa.csv"

@@ -1,0 +1,15 @@
+site_name: "ClubInject Scottsdale"
+target_url: "https://www.clubinject.com/scottsdale"
+# Automatically remove tracking parameters to avoid robots issues and keep cache cleaner
+strip_query_params: true
+
+# Parsing mode: Regex-based text parsing tailored for ClubInject-like pages (ignores CSS classes)
+parse_mode: "clubinject_units"
+mode: "dynamic"     # Use dynamic scraping module
+browser: "chrome"   # Default is chrome, can be changed to edge
+retry: 2            # Number of automatic retries
+delay: 3            # Interval in seconds between retries
+
+storage:
+  type: "csv"
+  path: "backend/data/processed/clubinject_scottsdale.csv"
