@@ -9,7 +9,7 @@ venv/
 .venv/
 env/
 .env/
-**/venv/
+chromedriver-linux64/
 # Distribution / packaging
 build/
 dist/
