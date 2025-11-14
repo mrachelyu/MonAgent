@@ -10,6 +10,7 @@ venv/
 env/
 .env/
 chromedriver-linux64/
+chromedriver-linux64.zip
 # Distribution / packaging
 build/
 dist/
