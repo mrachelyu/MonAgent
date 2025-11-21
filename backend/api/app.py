@@ -33,8 +33,15 @@ def chat():
         return jsonify({"error": "Missing 'message' field"}), 400
 
     user_message = data["message"]
-    response = bot.get_response(user_message)
+    response = bot.chat(user_message)
     return jsonify({"reply": response})
+
+@app.post("/chat")
+def chat_api():
+    message = request.json.get("message", "")
+    reply = bot.chat(message)
+    return jsonify({"reply": reply})
+
 
 if __name__ == "__main__":
     import os

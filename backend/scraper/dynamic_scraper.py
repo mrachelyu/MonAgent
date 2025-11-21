@@ -370,6 +370,8 @@ class DynamicScraper:
         logging.info(f"parse_page: Generated {len(rows)} rows in total")
         return rows
 
+
+    
     # ------------------ save & run ------------------ #
 
     def save_to_csv(self, rows):

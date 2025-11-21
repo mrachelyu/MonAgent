@@ -15,6 +15,8 @@ def run_with_config(config_name="clubinject_scottsdale"):
     # Detect mode
     mode = config.get("mode", "static").lower()
 
+    # Use the BaseScraper type so the common run() interface is recognized by static analyzers
+    scraper: BaseScraper
     if mode == "dynamic":
         print("🔄 Using DynamicScraper...")
         scraper = DynamicScraper(config)
